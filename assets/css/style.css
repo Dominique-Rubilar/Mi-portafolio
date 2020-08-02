@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #1f1f1f;
+}
+
+#descripcion {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+        font-weight: 400;
+        color: white;
+        text-shadow: 2px 2px 4px #343434;
+        
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.rale {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.rale-bold {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.texto-header {
+    margin-top: -150px;
+    position: absolute;
+    z-index: 1;
+    color: #057ffe;
+}
+
+.card img {
+    height: 200px;    
+    object-fit: cover;
+}
+
+.card {
+    border-color: #5c5c5c;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+hr {
+    background-color: #c2c2c2;
+}
+
+#experiencia img {
+    max-width: 200px;
+}
+
+footer {
+    height: 130px;
+}
+
+footer h2, footer i {
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer i:hover {
+    color: #89e5ff;
+    text-decoration: none;
+}
+
+.texto-exp a {
+    color: #1f1f1f;
+}
+
+.modal-footer {
+    display: block;
+    text-align: center;
+}
+
+.modal-footer a, .modal-footer button {
+    margin: 5px 0;
+}
+
+.modal h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Media query */
+
+@media (min-width: 768px) {
+    h5 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    font-size: 1.09em;
+    margin-bottom: 0.3em;
+    }
+    
+    .texto-exp {
+        text-align: left;
+    }
+    
+    footer {
+        height: 120px;
+    }
+    
+    footer h2, footer i {
+        margin: 35px 15px;
+    }
+    
+    footer h2 {
+        text-align: right;
+        margin-right: -10px;
+    }
+    
+    .iconos-rrss {
+        text-align: left;
+    }
+    
+}
